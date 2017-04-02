@@ -11,10 +11,10 @@ GameObject:
   - 222: {fileID: 22247770}
   - 114: {fileID: 11485242}
   - 114: {fileID: 11471694}
-  - 114: {fileID: 11417734}
   - 114: {fileID: 11495348}
   - 114: {fileID: 11406240}
   - 114: {fileID: 11446264}
+  - 114: {fileID: 11443788}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -118,17 +118,16 @@ MonoBehaviour:
   showOnStart: 1
   rootComponent: {fileID: 0}
   subComponents:
-  - {fileID: 11417734}
+  - {fileID: 11443788}
   currentState: 0
   animation: {fileID: 0}
   childsShowMode: 0
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
-  buttonComponent: {fileID: 11417734}
---- !u!114 &11417734
+  buttonComponent: {fileID: 11443788}
+--- !u!114 &11443788
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -136,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 113022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c7df3d8c8cab44b99c417fc57b43c48, type: 3}
+  m_Script: {fileID: 11500000, guid: a99a01f98e98d4c55aacf53b199642f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   windowId: 0
@@ -155,7 +154,6 @@ MonoBehaviour:
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
   sfxOnClick:
     flowData: {fileID: 0}
@@ -205,12 +203,12 @@ MonoBehaviour:
   defaultNavigationMode: 0
   hoverOnAnyButtonState: 0
   hoverCursorDefaultOnInactive: 0
-  image: {fileID: 11485242}
+  image: {fileID: 0}
   rawImage: {fileID: 0}
   flipHorizontal: 0
   flipVertical: 0
   preserveAspect: 0
-  flippableEffect: {fileID: 11446264}
+  flippableEffect: {fileID: 0}
   preserveAspectEffect: {fileID: 0}
   imageLocalizationKey:
     key: 
@@ -222,7 +220,6 @@ MonoBehaviour:
   imageResourceWait: 0
   imageResource:
     async: 1
-    controlType: 0
     assetPath: 
     assetBundleName: 
     resourcesPath: 
@@ -250,12 +247,18 @@ MonoBehaviour:
     streamingAssetsPathPS4MovieAudio: 
     streamingAssetsPathXBOXONEMovieAudio: 
     streamingAssetsPathCommonMovieAudio: 
-    isMovie: 0
+    streamingAssetsPathStandaloneIsMovie: 0
+    streamingAssetsPathIOSIsMovie: 0
+    streamingAssetsPathAndroidIsMovie: 0
+    streamingAssetsPathPS4IsMovie: 0
+    streamingAssetsPathXBOXONEIsMovie: 0
+    streamingAssetsPathCommonIsMovie: 0
     canBeUnloaded: 0
+    controlType: 0
     tempObject: {fileID: 0}
   imageCrossFadeModule:
     enabled: 0
-    image: {fileID: 11417734}
+    image: {fileID: 11443788}
     sourceImage: {fileID: 0}
     copyImage: {fileID: 0}
     copyFlippableImage: {fileID: 0}
@@ -549,7 +552,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: captionComponent
       value: 
-      objectReference: {fileID: 11417734}
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_FontData.m_LineSpacing
       value: 1
